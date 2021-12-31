@@ -29,3 +29,7 @@ Git pull: es el comando para descargar y aplicar los cambios desde un repositori
 
 ## ¿Qué es el Virtual DOM?
 Es una representación del DOM (Document Object Model) guardad en memoria, esto permite utilizar las ventajas de React con hooks y estados. El virtual DOMN interpreta estos cambios por hooks o estados para poder aplicarlos al real DOM, renderizando con menor latencia
+
+## Dado el Codepen
+https://codepen.io/baku452/pen/VwMXmwY?editors=1100
+
