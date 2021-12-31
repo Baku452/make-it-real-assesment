@@ -1,0 +1,69 @@
+.modalOpen {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+
+  .modal__content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+  }
+  .modal__close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px;
+  }
+}
+.modalClose {
+  display: none;
+}
+.card {
+  border: 2px solid #0b2350;
+  border-radius: 10px;
+  flex: 0 0 auto;
+  overflow: hidden;
+  margin: 0 5px;
+  width: 30%;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  .card__image {
+    // object-fit: cover;
+    max-width: 100%;
+    max-height: 150px;
+  }
+  .card__box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .card__button {
+    background-color: #2f92c0;
+    max-height: 30px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  .card__buttonDisable {
+    background-color: #9b9b9b !important;
+    max-height: 30px;
+    border-radius: 10px;
+    color: #fff;
+  }
+}
