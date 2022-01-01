@@ -25,7 +25,7 @@ function ProductList() {
             />
           ))
         ) : (
-          <p>Cargando Productos</p>
+          <h2>Cargando Productos</h2>
         )}
       </div>
     </>
